@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
-import Main from "../components/main";
+import Projects from "../components/projects";
 
 export default () => (
   <div>
   <Header />
-  <Main />
+  <Projects />
   <Footer />
 </div>
 )

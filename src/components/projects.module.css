@@ -1,0 +1,133 @@
+
+h3 {
+  padding: 0 0 2rem;
+  font-size: 3rem;
+}
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 30%;
+}
+
+/* PROJECTS */
+.projects__main {
+    background-image: linear-gradient(rgba(85, 34, 68, 0.7), rgba(85, 34, 68, 0.9)), url(../../static/comp2.jpg);
+    background-color: var(--purple);
+    background-position: left;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 2rem;
+}
+.projects__main--title {
+    text-align: center;
+}
+
+.project {
+  color: var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid var(--white);
+  margin: 7rem auto;
+  width: 85%;
+}
+
+.project__image {
+  width: 50%;
+}
+
+.project__image img {
+  width: 100%;
+  box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.3);
+}
+
+.project__text {
+  text-align: justify;
+  box-sizing: inherit;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0 0 3%;
+}
+
+.project__text--title {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.project__text--link {
+  display: block;
+  margin: 1rem auto;
+}
+
+.project__text--link a {
+  margin: 0 0.5rem;
+}
+
+.project__text--tags {
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project__icons {
+  width: 3.5rem;
+  height: auto;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 60%;
+  }
+
+  .projects__main {
+    padding: 1rem;
+  }
+  #projects h3 {
+    width: 95%;
+  }
+
+  .project,
+  #footer,
+  #contact {
+    width: 95%;
+  }
+
+  .project__text,
+  .project__image {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .project__text--tags {
+    margin: 1rem auto 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 58%;
+  }
+
+  .project {
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  .project__image,
+  .project__text {
+    margin: 2rem auto;
+    padding: 0;
+    width: 100%;
+  }
+}
