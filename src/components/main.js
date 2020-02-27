@@ -29,6 +29,7 @@ export default () => (
               <p>I'm a self-taught front-end developer based in Watford, UK.</p>
               <p>When I'm not making websites or learning about web development, you can find me exploring new places, climbing walls or baking.</p>
               <p>Do you need a new website or help with an existing one? I can help.</p>
+              <br />
               <a type="button" className="button button--dark about__button" href="#contact">Get in touch</a>
             </div>
           </div>

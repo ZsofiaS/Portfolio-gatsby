@@ -2,12 +2,15 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 * {
   --purple: #552244;
+  --purpleLight: #c56da8;
   --white: #f6eec7;
   margin: 0;
   padding: 0;
@@ -35,12 +38,12 @@ h1 {
 .nav-link {
   font-size: 1.8rem;
   margin-left: 1rem;
-  color: rgba(255,255,255,.7) !important;
+  color: rgba(255, 255, 255, .7) !important;
 }
 
 .nav-link:hover {
   font-weight: bold;
-  color: rgba(255,255,255,.95) !important;
+  color: rgba(255, 255, 255, .95) !important;
 }
 
 .button {
@@ -72,7 +75,7 @@ h1 {
 
 .button--dark:hover {
   color: var(--white);
-  background-color: #c56da8;
+  background-color: var(-purpleLight);
 }
 
 .container-fluid {
@@ -87,7 +90,7 @@ h1 {
   background-size: cover;
   position: relative;
   text-align: right;
-  height: 100vh;
+  height: calc(100vh - 4.64rem);
 }
 
 .home--right {
@@ -190,7 +193,6 @@ h1 {
 
 .about__text {
   text-align: justify;
-
 }
 
 .about__rectangle {
@@ -248,10 +250,12 @@ h1 {
   text-align: center;
   padding: 0 3%;
 }
+
 .icons {
   font-size: 3rem;
   margin-right: 0.8rem;
 }
+
 .bullet {
   display: flex;
   align-items: center;
@@ -279,7 +283,7 @@ h1 {
 
 .contact__link:hover {
   cursor: pointer;
-  color: #c56da8;
+  color: var(-purpleLight);
 }
 
 .home--right {
@@ -294,6 +298,7 @@ h1 {
   text-align: center;
   padding: 3% 7%;
 }
+
 .phone {
   color: var(--purple);
   -webkit-text-decoration: none;
@@ -309,6 +314,10 @@ footer {
 @media only screen and (max-width: 1000px) {
   html {
     font-size: 59%;
+  }
+
+  #home {
+    height: calc(100vh - 4.48rem);
   }
 
   .about__content {
@@ -343,8 +352,13 @@ footer {
     float: none;
     margin: 5% auto;
   }
+
   .purple {
     text-align: left;
+  }
+
+  #home {
+    height: calc(100vh - 3.44rem);
   }
 
   #home .main__title {
@@ -374,6 +388,7 @@ footer {
 
   #home {
     text-align: center;
+    height: calc(100vh - 3.33rem);
   }
 
   #home .main__title {
@@ -409,7 +424,7 @@ footer {
   }
 
   .img__container {
-        margin: 0 auto;
+    margin: 0 auto;
     border: none;
     margin-bottom: 3rem;
   }
@@ -440,5 +455,4 @@ footer {
   .main__titleContainer {
     padding: 10% 0;
   }
-
 }
