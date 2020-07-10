@@ -11,7 +11,7 @@ export default () => (
         <div className="col-md-7 home--right">
           <div className="main__titleContainer">
             <h1 className="display-4 main__title">ZSOFIA SZONYI</h1>
-            <h2 className="main__subtitle">Front-end developer</h2>
+            <h2 className="main__subtitle">Software developer</h2>
             <a type="button" className="button" href="#contact">Get in touch</a>
           </div>
         </div>
@@ -23,12 +23,12 @@ export default () => (
     <div className="container-fluid yellow about">
       <div className="row">
         <div className="col-md-6 about__container">
-          <h2 className="display-4 main__title">About Zsofi</h2>
+          <h2 className="display-4 main__title">About Me</h2>
           <div className="about__content">
             <div className="about__text">
-              <p>I'm a self-taught front-end developer based in Watford, UK.</p>
-              <p>When I'm not making websites or learning about web development, you can find me exploring new places, climbing walls or baking.</p>
-              <p>Do you need a new website or help with an existing one? I can help.</p>
+              <p>I'm a self-taught developer & Makers graduate, who enjoys the challenges and continuous learning process coding involves.</p>
+              <p>I made a career switch to software development because I wanted to solve people's problems and create amazing products.</p>
+              <p>When I'm not making websites or learning about software development, you can find me exploring new places, climbing walls, baking, or learning languages.</p>
               <br />
               <a type="button" className="button button--dark about__button" href="#contact">Get in touch</a>
             </div>
@@ -52,19 +52,19 @@ export default () => (
         <h2 className="display-4 main__title">My tools & interests</h2>
           <div className="bullets">
           <p className="bullet">
-            <FaClock className="icons" />Web technologies: HTML, CSS, Bootstrap, EJS, SCSS</p>
+            <FaClock className="icons" />Programming languages, web tech: Javascript, Ruby, React, JQuery, HTML5, CSS3, Bootstrap, EJS</p>
             <p className="bullet">
-              <FaTag className="icons" />Scripts: Javascript, jQuery, React</p>
+              <FaTag className="icons" />Testing: RSpec, Capybara, Jasmine, Cypress, Jest</p>
             <p className="bullet">
-              <FaBook className="icons" />Backend: Node.js</p>
+              <FaBook className="icons" />Backend: Node.js, Express, Sinatra, Firebase</p>
             <p className="bullet">
-              <FaWrench className="icons" />Database: MongoDB</p>
+              <FaWrench className="icons" />Database: MongoDB, PostgreSQL, Firestore</p>
             <p className="bullet">
-              <FaSearch className="icons" />Other: Git, Google Analytics</p>
+              <FaSearch className="icons" />Agile: TDD, Extreme Programming, Continuous Integration, Git</p>
             <p className="bullet">
               <FaMap className="icons" />Exploring: React Native</p>
             <p className="bullet">
-              <FaRoad className="icons" />Interests: travel, climbing, baking</p>
+              <FaRoad className="icons" />Interests: travel, climbing, baking, hiking, foreign languages</p>
           </div>
         </div>
         </div>
