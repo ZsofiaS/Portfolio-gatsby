@@ -6,6 +6,48 @@ export default function Projects () {
     <div>
     <section id="projects" className={styles.projects__main}>
       <h1 className={styles.projects__mainTitle}>some of my projects</h1>
+
+      <div className={styles.project}>
+        <div className={styles.project__image}>
+          <a href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer"><img src="./thereandback.PNG" alt="thereAndBack" /></a>
+        </div>
+        <div className={styles.project__text}>
+          <h2 className={styles.project__textTitle}>thereAndBack</h2>
+          <p className={styles.project__textContent}>A web mapping app that helps the user find a circular route for outdoor activities. Built in a team of 4 using agile practices and automated testing.</p>
+          <div className={styles.project__textTags}>
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/react-native.png" alt="react" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/css3.png" alt="css3" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/firebase.png" alt="firebase" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="bootstrap" />
+            <img className={styles.project__icons} src="https://img.icons8.com/offices/30/000000/leaf.png" alt="leaflet" />
+          </div>
+          <div className={styles.project__textLink}>
+            <a className="button button--dark" href="https://github.com/ZsofiaS/route_planner" target="_blank" rel="noopener noreferrer" >Code</a>
+            <a className="button button--dark" href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer" >Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.project}>
+        <div className={styles.project__image}>
+          <a href="https://github.com/ZsofiaS/acebook-NO-de-Problem" target="_blank" rel="noopener noreferrer"><img src="./acebook.PNG" alt="acebook" /></a>
+        </div>
+        <div className={styles.project__text}>
+          <h2 className={styles.project__textTitle}>NO-de-problem - Acebook</h2>
+          <p className={styles.project__textContent}>A re-creation of a popular social media platform built in a team of 5 using agile practices and automated testing.</p>
+          <div className={styles.project__textTags}>
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/react-native.png" alt="react" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/css3.png" alt="css3" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/nodejs.png" alt="nodejs" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/travis-ci.png" alt="leaflet" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/mongodb.png" alt="mongodb" />
+          </div>
+          <div className={styles.project__textLink}>
+            <a className="button button--dark" href="https://github.com/ZsofiaS/acebook-NO-de-Problem" target="_blank" rel="noopener noreferrer" >Code</a>
+          </div>
+        </div>
+      </div>
+
       <div className={styles.project}>
         <div className={styles.project__image}>
           <a href="https://github.com/ZsofiaS/Blog-website" target="_blank" rel="noopener noreferrer"><img src="https://dl.dropboxusercontent.com/s/40914iaedsmzkfk/blog.png?dl=0" alt="blog"/></a>

@@ -36,7 +36,7 @@ export default () => (
         </div>
         <div className="col-md-6">
           <div className="img__container">
-            <img src="./Zsofi.jpg" alt="" />
+            <img src="./Zsofi2.jpg" alt="" />
           </div>
         </div>
       </div>
