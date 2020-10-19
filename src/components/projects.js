@@ -9,7 +9,7 @@ export default function Projects () {
 
       <div className={styles.project}>
         <div className={styles.project__image}>
-          <a href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer"><img src="./morning.png" alt="Morning App" /></a>
+          <a href="https://github.com/ZsofiaS/MorningApp" target="_blank" rel="noopener noreferrer"><img src="./morning.png" alt="Morning App" /></a>
         </div>
         <div className={styles.project__text}>
           <h2 className={styles.project__textTitle}>Morning App</h2>
@@ -20,8 +20,7 @@ export default function Projects () {
             <img className={styles.project__icons} src="https://img.icons8.com/dotty/80/000000/sql.png" alt="SQLite" />
           </div>
           <div className={styles.project__textLink}>
-            <a className="button button--dark" href="https://github.com/ZsofiaS/route_planner" target="_blank" rel="noopener noreferrer" >Code</a>
-            <a className="button button--dark" href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer" >Demo</a>
+            <a className="button button--dark" href="https://github.com/ZsofiaS/MorningApp" target="_blank" rel="noopener noreferrer" >Code</a>
           </div>
         </div>
       </div>
