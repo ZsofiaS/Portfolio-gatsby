@@ -9,7 +9,7 @@ export default function Projects () {
 
       <div className={styles.project}>
         <div className={styles.project__image}>
-          <a href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer"><img src="./morning.PNG" alt="Morning App" /></a>
+          <a href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer"><img src="./morning.png" alt="Morning App" /></a>
         </div>
         <div className={styles.project__text}>
           <h2 className={styles.project__textTitle}>Morning App</h2>
