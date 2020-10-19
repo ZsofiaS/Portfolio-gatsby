@@ -9,6 +9,26 @@ export default function Projects () {
 
       <div className={styles.project}>
         <div className={styles.project__image}>
+          <a href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer"><img src="./morning.PNG" alt="Morning App" /></a>
+        </div>
+        <div className={styles.project__text}>
+          <h2 className={styles.project__textTitle}>Morning App</h2>
+          <p className={styles.project__textContent}>A mobile app to help take back your mornings.
+Take a minute to pause, reflect & stay positive 🌺 Built solo, features a breathing timer, gratitude journal, affirmations and calming sounds.</p>
+          <div className={styles.project__textTags}>
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/react-native.png" alt="react" />
+            <img className={styles.project__icons} src="https://img.icons8.com/color/48/000000/css3.png" alt="css3" />
+            <img className={styles.project__icons} src="https://img.icons8.com/dotty/80/000000/sql.png" alt="SQLite" />
+          </div>
+          <div className={styles.project__textLink}>
+            <a className="button button--dark" href="https://github.com/ZsofiaS/route_planner" target="_blank" rel="noopener noreferrer" >Code</a>
+            <a className="button button--dark" href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer" >Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.project}>
+        <div className={styles.project__image}>
           <a href="https://thereandback.surge.sh/" target="_blank" rel="noopener noreferrer"><img src="./thereandback.PNG" alt="thereAndBack" /></a>
         </div>
         <div className={styles.project__text}>
